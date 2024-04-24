@@ -76,8 +76,8 @@ a{
     
 }
 .sticky-area-wrap .header-ct-left {
-    flex-grow: 0;
-    justify-content: space-between;
+    flex-grow: 2;
+    justify-content: space-around;
     display: flex;
     align-items: center;
     height: 80px;
@@ -123,6 +123,7 @@ a{
     visibility: visible;
     /* z-index: 999; */
 }
+
 .menu-sub .pop-up {
     padding: 24px;
     border-right: 1px solid #e5e5e5;
@@ -154,12 +155,11 @@ a{
 }
 
 .sticky-area-wrap .header-ct-center {
-    flex-grow: 1;
+    flex-grow: 2;
     justify-content: center;
-    width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 178px;
+    /* padding-left: 178px; */
 }
 #main-nav #menu-primary-menu {
     display: flex;
